@@ -7,3 +7,5 @@
 .forma{--accent:#613b40}.forma .btn:hover,.forma .topbar>.btn:hover{background:#77474d}
 
 @media(min-width:601px){.forma .hero-content{width:47%;padding-right:28px}.forma .hero-content h1,.forma .hero-content p{max-width:100%}}
+
+.forma .royal-side:first-child img{object-fit:contain;background:#fff}
