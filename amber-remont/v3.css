@@ -1,0 +1,62 @@
+/* Amber's own controls and room illustrations, retaining the agreed prototype. */
+.amber-v3{--panel:#25292c;--paper:#141719;--radius:22px}
+.amber-v3 .hero-copy,.amber-v3 .hero-photo{border-radius:22px}
+.amber-v3 .hero-copy{background:linear-gradient(125deg,#282d30,#22272a)}
+.amber-v3 .hero-content h1{font-size:clamp(37px,3.55vw,72px);line-height:1.13;letter-spacing:-.045em}
+.amber-v3 .hero-content h1>span{color:#f1c72d}
+.amber-v3 .hero-content{margin-top:clamp(50px,4.5vw,100px)}
+.amber-v3 .button{border-radius:12px;min-height:60px;padding:15px 25px;transition:background .18s,transform .18s}
+.amber-v3 .button:hover{transform:translateY(-2px)}
+.amber-v3 .hero-action{align-items:center;gap:25px;padding-bottom:19px}
+.amber-v3 .hero-action>.button{width:auto;min-width:215px}
+.hero-work-link{display:inline-block;font-size:13px;color:#eceff0;border-bottom:1px solid #7c868b;padding-bottom:4px}
+.hero-work-link:hover{border-color:#f5c619;color:#f5c619}
+.amber-v3 .hero-photo:after{display:none}
+.amber-v3 .hero-menu-toggle{left:auto;right:27px;top:27px;width:auto;height:49px;padding:0 18px;border-radius:10px;display:flex;flex-direction:row;gap:18px;background:#20272beb;backdrop-filter:blur(12px)}
+.hero-menu-toggle .menu-word{height:auto;width:auto;transform:none!important;background:transparent;font-size:13px;font-weight:600}
+.hero-menu-toggle .menu-lines{display:flex;flex-direction:column;gap:6px;background:transparent;width:23px;height:auto;opacity:1!important;transform:none!important}
+.menu-lines i{height:1.5px;width:23px;background:#fff;display:block}
+.menu-lines i:last-child{width:15px;margin-left:auto}
+.navigation-drawer{position:fixed;inset:16px 16px 16px auto;margin:0;width:min(450px,calc(100vw - 32px));max-width:none;height:calc(100dvh - 32px);max-height:none;background:#252c30;border:1px solid #41494f;border-radius:20px;padding:30px 34px;overflow:auto;color:#f7f8f9;transform:translateX(calc(100% + 30px));opacity:0;transition:transform .24s cubic-bezier(.22,1,.36,1),opacity .2s}
+.navigation-drawer.is-open{transform:translateX(0);opacity:1}
+.navigation-drawer::backdrop{background:#071014a8;backdrop-filter:blur(7px)}
+.drawer-head{display:flex;justify-content:space-between;align-items:center;gap:18px;padding-bottom:33px}
+.drawer-brand{font-size:22px;letter-spacing:-1px;font-weight:400}.drawer-brand b{font-weight:600;color:#f5c619}
+.drawer-close{border:1px solid #606b71;background:transparent;border-radius:9px;width:39px;height:39px;font-size:27px;color:white;display:grid;place-items:center}
+.navigation-drawer nav{display:flex;flex-direction:column;gap:27px;padding-block:15px 35px}
+.navigation-drawer nav a{font-size:27px;font-weight:600;line-height:1.2;letter-spacing:-1px}
+.navigation-drawer nav a small{display:block;font-size:12px;font-weight:400;color:#b5bec3;letter-spacing:0;margin-top:9px;line-height:1.5}
+.navigation-drawer nav a:hover{color:#f5c619}
+.drawer-contact{border-top:1px solid #485056;padding-top:27px;display:flex;flex-direction:column;align-items:flex-start;gap:12px}
+.drawer-contact>span{font-size:12px;color:#b5bec3}
+.drawer-contact>a:first-of-type{font-size:25px;letter-spacing:-.7px}.drawer-contact>a:nth-of-type(2){font-size:13px;color:#cbd1d4}
+.drawer-contact .button{margin-top:10px;font-size:14px;min-height:54px;width:100%}
+.amber-v3 .royal-banner{border-radius:26px;background:linear-gradient(110deg,#eabd16,#f5cf37 70%,#ffe575)}
+.amber-v3 .royal-copy h2{letter-spacing:-.045em}.amber-v3 .apartment-model{right:0;width:59%;height:calc(100% + 100px)}
+.amber-v3 .apartment-model img{object-fit:contain;object-position:center;filter:drop-shadow(0 16px 16px #55440026)}
+.amber-v3 .service-card{border-radius:22px;background:#252c30;overflow:hidden}
+.amber-v3 .service-copy{padding-bottom:7px}
+.amber-v3 .service-image{height:auto;aspect-ratio:1.24;position:relative;margin:0 4px 5px}
+.amber-v3 .service-image:before{display:none}
+.amber-v3 .service-image img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:center;transition:transform .3s}
+.amber-v3 .service-card:hover .service-image img{transform:translateY(-4px)}
+.amber-v3 .service-description{color:#c8d0d4}
+.amber-v3 .package-name{color:#b7c4ca}
+.amber-v3 .service-price{color:#f0cf5d}
+.amber-v3 .project-card{background:linear-gradient(120deg,#e8bc17,#f6d23f);color:#242316}
+.amber-v3 .project-card .service-description{color:#423c26}.amber-v3 .project-card .package-name{color:#625320}
+.amber-v3 .project-card,.amber-v3 .process-card{grid-template-columns:1fr 1fr;min-height:380px}
+.amber-v3 .wide-copy{padding:32px 15px 32px 32px;min-width:0}
+.amber-v3 .wide-copy h3{font-size:30px}
+.amber-v3 .wide-copy .button{font-size:12px;min-height:51px;padding:13px 19px}
+.amber-v3 .wide-photo{height:auto;min-height:0;display:flex;align-items:center;justify-content:center;padding:0;overflow:visible}
+.amber-v3 .wide-photo img{width:100%;max-width:100%;height:auto;max-height:370px;object-fit:contain;object-position:center;transform:none}
+.amber-v3 .process-card .wide-photo img{width:100%;max-height:330px}
+.amber-v3 .wide-copy .detail-link{margin-top:auto}
+.amber-v3 .close{border-radius:9px}
+@media(min-width:1800px){.amber-v3 .wide-copy h3{font-size:39px}.amber-v3 .wide-copy{padding:42px 20px 42px 42px}.amber-v3 .project-card,.amber-v3 .process-card{min-height:440px}.amber-v3 .wide-photo img{max-height:450px}}
+@media(max-width:1200px){.amber-v3 .hero-action{gap:22px;flex-wrap:wrap}.amber-v3 .hero-action>.button{flex:none;min-width:190px}.amber-v3 .hero-content h1{font-size:clamp(34px,3.5vw,45px)}.amber-v3 .apartment-model{width:57%;height:calc(100% + 70px)}.amber-v3 .wide-copy{padding:27px 12px 27px 27px}.amber-v3 .wide-copy h3{font-size:26px}.amber-v3 .wide-copy .service-description{font-size:13px}.amber-v3 .wide-photo img{max-height:320px}.amber-v3 .service-image{aspect-ratio:1.2}}
+@media(max-width:900px){.amber-v3 .hero-content h1{font-size:35px}.amber-v3 .hero-action{align-items:flex-start;gap:19px}.amber-v3 .hero-action>.button{width:100%}.hero-work-link{font-size:12px}.amber-v3 .hero-photo{min-height:690px}.amber-v3 .apartment-model{width:54%;right:-1%;height:calc(100% + 20px)}.amber-v3 .optima .service-image{height:100%;aspect-ratio:auto;min-height:330px;margin:0 10px 0 0}.amber-v3 .optima .service-image img{object-fit:contain}.amber-v3 .service-image{height:auto;aspect-ratio:1.15}.amber-v3 .project-card,.amber-v3 .process-card{display:flex;min-height:0}.amber-v3 .wide-copy{padding:27px;min-height:310px}.amber-v3 .wide-copy h3{font-size:28px}.amber-v3 .wide-copy .service-description{font-size:14px}.amber-v3 .wide-photo{height:270px;padding:0 10px 10px}.amber-v3 .wide-photo img,.amber-v3 .process-card .wide-photo img{width:100%;height:100%;max-height:none;object-fit:contain}.amber-v3 .wide-copy .button,.amber-v3 .wide-copy .detail-link{margin-top:25px}}
+@media(max-width:640px){.amber-v3 .hero-copy,.amber-v3 .hero-photo{border-radius:20px}.amber-v3 .hero-content{margin-top:40px}.amber-v3 .hero-content h1{font-size:clamp(32px,8.8vw,48px)}.amber-v3 .hero-action{display:flex;flex-direction:column;align-items:stretch;padding-bottom:0;gap:20px}.amber-v3 .hero-action>.button{min-height:58px;width:100%;flex:none}.hero-work-link{align-self:center;font-size:12px}.amber-v3 .hero-menu-toggle{top:20px;right:20px;left:auto;height:45px;padding-inline:15px;gap:16px}.amber-v3 .hero-photo{min-height:0;aspect-ratio:.92}.amber-v3 .royal-banner{min-height:675px}.amber-v3 .apartment-model{right:0;width:100%;height:335px}.amber-v3 .royal-copy{padding-inline:27px}.amber-v3 .service-copy{padding:28px 28px 6px}.amber-v3 .service-image,.amber-v3 .optima .service-image{aspect-ratio:1.16;height:auto;min-height:0;margin:0 5px 7px}.amber-v3 .service-card{border-radius:20px}.amber-v3 .wide-copy{padding:28px;min-height:0}.amber-v3 .wide-copy h3{font-size:31px}.amber-v3 .wide-copy .service-description{font-size:15px}.amber-v3 .wide-photo{height:280px;padding:0 8px 14px}.amber-v3 .process-card .wide-photo{height:260px}.navigation-drawer{inset:8px 8px 8px auto;width:calc(100vw - 16px);height:calc(100dvh - 16px);border-radius:16px;padding:25px}.navigation-drawer nav{gap:25px;padding-top:12px}.navigation-drawer nav a{font-size:25px}.drawer-head{padding-bottom:25px}.drawer-contact>a:first-of-type{font-size:24px}}
+@media(max-width:370px){.amber-v3 .hero-content h1{font-size:31px}.amber-v3 .royal-banner{min-height:715px}.amber-v3 .apartment-model{height:315px}.navigation-drawer{padding:22px}.navigation-drawer nav{gap:23px}.drawer-contact{padding-top:23px}}
+@media(prefers-reduced-motion:reduce){.navigation-drawer{transition:none}.amber-v3 .button:hover,.amber-v3 .service-card:hover .service-image img{transform:none}}
